@@ -1,4 +1,4 @@
-package SeriesSpot;
+ package SeriesSpot;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -6,6 +6,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Scanner;
 
+ 
 public class APIRequest {
     public static String getApiResponse(String movieTitle) {
         try {
